@@ -27,7 +27,7 @@ Install the required Python packages. You can find these in the requirements.txt
 
 `pip install -r requirements.txt`
 
-Set up the OpenAI API key. This key is required for the johnbot to interact with the OpenAI API. You can set it up as an environment variable named OPENAI_API_KEY. The key is retrieved in the main section of the `johnbot.py` file using `os.getenv("OPENAI_API_KEY")`.
+Set up the OpenAI API key. This key is required for the johnbot to interact with the OpenAI API. You can set it up as an environment variable named OPENAI_API_KEY inside a `.env` file. The key is retrieved in the main section of the `johnbot.py` file using `os.getenv("OPENAI_API_KEY")`.
 
 Run the johnbot. You can do this by running the `python3 johnbot.py`. The johnbot will start a conversation, and you can interact with it by typing your messages into the console.
 
